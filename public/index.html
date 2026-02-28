@@ -13,17 +13,18 @@
 
 <div class="base">
     <div id="startContainer">
-        <img id="image" src="https://crmto.org.br/wp-content/uploads/2024/06/user.png" alt="">
+        <img id="image" src="https://marketplace.canva.com/Dz63E/MAF4KJDz63E/1/tl/canva-user-icon-MAF4KJDz63E.png" alt="">
         <h4><i>player</i></h4>
-        <button id="startButton">Jogar</button>
+        <button id="startButton"><strong>Jogar</strong></button>
     </div>
+
+
     <div id="gameContainer" style="display: none">
-        <h3 id="wordPrompt"></h3>
+        <h3 id="wordPrompt">ABC</h3>
 
-        <input type="text" id="inputWord" placeholder="..." autocomplete="off" spellcheck="false">
+        <input type="text" id="inputWord" placeholder=".  .  ." autocomplete="off" spellcheck="false">
 
-        <button id="sendButton">Enviar</button>
-        <button id="skipButton">Game Over</button>
+        <button id="sendButton"><strong>Enviar</strong></button>
 
         <p id="lives">
             <i id="lifeOne" class="bi bi-heart-fill"></i>
@@ -31,11 +32,13 @@
             <i id="lifeThree" class="bi bi-heart"></i>
         </p>
 
-        <p><strong>Pontuação:</strong><span id="score">0</span></p>
+        <p><strong>Pontuação: </strong><span id="score">0</span></p>
         <p id="gameTime">0s</p>
+        <button id="skipButton">Game Over</button>
     </div>
-</div>
-<div id="gameOverContainer" style="display: none">
+
+
+    <div id="gameOverContainer" style="display: none">
     
     <h2><strong>Game Over</strong></h2>
 
@@ -43,7 +46,8 @@
     <h3 style="margin: 10px 10px 2px 10px">Pontuações mais altas:</h3>
     <ol id="highscores"></ol>
 
-    <button id="returnButton">Voltar</button>
+    <button id="returnButton"><strong>Voltar</strong></button>
+</div>
 </div>
     
 <script src="script.js"></script>

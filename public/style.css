@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: rgb(226, 226, 226);
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    /* Imagem de fundo */
+    background-image: url('https://wallpapercave.com/wp/wp6554480.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgba(54, 20, 109, 0.900);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 10%;
+}
+
+.base {
+    background-color: rgba(24, 24, 24, 0.902);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(255, 255, 255, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+img {
+    width: 120px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+#wordPrompt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 70%;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(74, 17, 165);
+    background-color: rgb(70, 18, 153);
+    color: rgb(230, 230, 230);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(54, 20, 109);
+    border: 2px solid rgb(53, 18, 110);
+}
