@@ -20,27 +20,33 @@
 
 
     <div id="gameContainer" style="display: none">
-        <h3 id="wordPrompt">ABC</h3>
+        <h3 id="wordPrompt"></h3>
 
         <input type="text" id="inputWord" placeholder=".  .  ." autocomplete="off" spellcheck="false">
 
         <button id="sendButton"><strong>Enviar</strong></button>
 
         <p id="lives">
-            <i id="lifeOne" class="bi bi-heart-fill"></i>
+            <i class="bi bi-heart-fill"></i>
             <i id="lifeTwo" class="bi bi-heart-fill"></i>
-            <i id="lifeThree" class="bi bi-heart"></i>
+            <i id="lifeThree" class="bi bi-heart-fill"></i>
         </p>
 
         <p><strong>Pontuação: </strong><span id="score">0</span></p>
-        <p id="gameTime">0s</p>
-        <button id="skipButton">Game Over</button>
+        <!-- <p id="gameTime">0s</p> -->
+        <!-- <button id="skipButton">Game Over</button> -->
     </div>
 
 
     <div id="gameOverContainer" style="display: none">
     
     <h2><strong>Game Over</strong></h2>
+    
+    <p id="lives">
+        <i class="bi bi-heart"></i>
+        <i class="bi bi-heart"></i>
+        <i class="bi bi-heart"></i>
+    </p>
 
     <p id="finalScore"></p>
     <h3 style="margin: 10px 10px 2px 10px">Pontuações mais altas:</h3>
